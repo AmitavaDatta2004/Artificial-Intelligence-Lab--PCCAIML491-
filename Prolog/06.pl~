@@ -1,0 +1,9 @@
+addition(A,B,Result):-Result is A+B.
+subtraction(A,B,Result):-Result is A-B.
+multiplication(A,B,Result):-Result is A*B.
+division(A,B,Result):-Result is A/B.
+power(A,B,Result):-Result is A**B.
+int_div(A,B,Result):-Result is A//B.
+
+sin(Degree,Result):-
+    Result is sin(Degree*pi/180).
