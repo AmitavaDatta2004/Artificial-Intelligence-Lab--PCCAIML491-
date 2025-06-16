@@ -18,3 +18,8 @@ sum([H|T],S):-
 insert(I,L,[I|L]).
 % insert([H|T],I,[H|I]):-
 %     insert
+
+% Rule to reverse a list
+% list_rev([], []).
+list_rev([H|T], R) :-
+    reverse([H|T], R).

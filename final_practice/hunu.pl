@@ -19,3 +19,4 @@ tower(N,Source,Auxillary,Destination):-
     tower(N1,Source,Auxillary,Destination),
     tower(1,Source,_,Auxillary),
     tower(N1,Auxillary,Source,Destination).
+
