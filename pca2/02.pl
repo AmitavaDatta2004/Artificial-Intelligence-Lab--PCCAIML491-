@@ -7,7 +7,7 @@ goal(state(_,_,_,yes)).
 
 plan(State,[]):-goal(State).
 plan(State,[Action|Actions]):-
-    move(State,Move,NewState),
+    move(State,Action,NewState),
     plan(NewState,Actions).
 
 
